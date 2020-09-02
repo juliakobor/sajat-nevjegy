@@ -29,13 +29,6 @@ time, mark, audio, video {
 body {
    background-color: #ffffff;
 }
-img {
-  width: 100%;
-  height: auto;
-  box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 40px;
-  filter:contrast(120%);
-  filter: grayscale(100%) contrast(110%);
-}
 h1 {
  font-family: 'Frank Ruhl Libre', Arial, serif;
   font-weight: bold;
@@ -60,7 +53,15 @@ h4 {
   color: #545454;
 }
 .image {
+  width: 768 px;
   line-height: 5;
+}
+img {
+  width: 768px;
+  height: auto;
+  box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 40px;
+  filter:contrast(120%);
+  filter: grayscale(100%) contrast(110%);
 }
 .basic-infos {
   line-height: 1.55;
