@@ -1,2 +1,0 @@
-# sajat-nevjegy
-Saját névjegykártyám.
