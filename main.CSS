@@ -23,7 +23,8 @@ time, mark, audio, video {
    box-sizing: border-box;
    }
 .content {
-  width: 46%;
+  width: 96%;
+  margin: 2%;
   text-align: center;
 }
 body {
@@ -58,12 +59,11 @@ h4 {
   color: #DCDCDC;
 }
 .image {
-  width: 50%;
   line-height: 5;
 }
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   box-shadow: hsla(0, 0%, 0%, .8) 5px 5px 40px;
   filter:contrast(120%);
   filter: grayscale(100%) contrast(110%);
@@ -80,9 +80,11 @@ a:hover {
 @media (min-width: 768px) {
   .image {
     float: left;
+    width: 50%;
   }
   .content {
     float: right;
+    width: 46%;
     margin: 2%;
   }
 }
