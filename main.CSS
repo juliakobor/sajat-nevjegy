@@ -22,20 +22,20 @@ time, mark, audio, video {
 * {
    box-sizing: border-box;
    }
+body {
+   background-color: #545454;
+}
 .content {
   width: 96%;
   margin: 2%;
   text-align: center;
-}
-body {
-   background-color: #545454;
 }
 h1 {
  font-family: 'Frank Ruhl Libre', Arial, serif;
   font-weight: bold;
   font-size: 2.35rem;
   color: #DCDCDC;
-   text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 h4 {
   font-family: 'Frank Ruhl Libre', Arial, serif;
@@ -58,9 +58,6 @@ h4 {
   line-height: 1.5;
   color: #DCDCDC;
 }
-.image {
-  line-height: 5;
-}
 img {
   width: 100%;
   height: 100%;
@@ -81,6 +78,7 @@ a:hover {
   .image {
     float: left;
     width: 50%;
+    height: 100%;
   }
   .content {
     float: right;
