@@ -26,8 +26,8 @@ body {
    background-color: #545454;
 }
 .content {
-  width: 96%;
-  margin: 2%;
+  width: 96vw;
+  margin: 2vw;
   text-align: center;
 }
 h1 {
@@ -89,7 +89,7 @@ a:hover {
   }
   .content {
     float: right;
-    width: 40vw;
+    width: 38vw;
     margin: 2vw;
   }
 }
