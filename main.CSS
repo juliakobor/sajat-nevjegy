@@ -26,14 +26,14 @@ body {
    background-color: #545454;
 }
 .content {
-  width: 96vw;
-  margin: 2vw;
+  width: 90vw;
+  margin: 5vw;
   text-align: center;
 }
 h1 {
  font-family: 'Frank Ruhl Libre', Arial, serif;
   font-weight: bold;
-  font-size: 2.35rem;
+  font-size: 2.5rem;
   color: #DCDCDC;
   text-shadow: 0.125rem 0.125rem 0.25rem #000000;
 }
@@ -55,10 +55,10 @@ h4 {
 }
 #main-text {
   font-family: 'Frank Ruhl Libre', Arial, serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: #DCDCDC;
-  text-align: justify;
+  text-align: center;
 }
 img {
   width: 100%;
@@ -81,7 +81,7 @@ a {
 a:hover {
   color: #fffcf0;
 }
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
   .image {
     float: left;
     width: 56%;
@@ -91,8 +91,26 @@ a:hover {
     float: right;
     width: 40%;
     margin: 2%;
+    height: 100%;
   }
   #main-text {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
+  text-align: justify;
 }
+  h4 {
+    font-size: 2rem;
+  }
+  h1
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+    #main-text {
+  font-size: 1.35rem;
+  text-align: justify;
+}
+  h4 {
+    font-size: 2rem;
+  }
+  h1
+  font-size: 3rem;
 }
