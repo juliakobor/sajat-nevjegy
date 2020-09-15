@@ -68,7 +68,7 @@ img {
   filter: grayscale(100%) contrast(110%);
 }
 .image {
-  width: 1
+  width: 100%;
 }
 .basic-infos {
   line-height: 1.55;
@@ -111,6 +111,7 @@ a:hover {
   h4 {
     font-size: 2rem;
   }
-  h1
+  h1 {
   font-size: 3rem;
+}
 }
